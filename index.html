@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MovieMatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 MovieMatch</h1>
+  <p>Select your favorite genres:</p>
+  
+  <div class="genres">
+    <label><input type="checkbox" value="Action"> Action</label>
+    <label><input type="checkbox" value="Romance"> Romance</label>
+    <label><input type="checkbox" value="Sci-Fi"> Sci-Fi</label>
+    <label><input type="checkbox" value="Drama"> Drama</label>
+    <label><input type="checkbox" value="Thriller"> Thriller</label>
+    <!-- Add more genres -->
+  </div>
+  
+  <input type="text" id="searchInput" placeholder="Search movie by name..." />
+
+  <button id="recommendBtn">Get Recommendations</button>
+  
+  <div id="results" class="movie-grid"></div>
+
+  <script src="movies.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
